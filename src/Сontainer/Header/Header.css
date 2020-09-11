@@ -1,0 +1,14 @@
+.header {
+    justify-content: center;
+    border: none;
+    width: 100vw;
+    height: 69px;
+    background: #3B3C49;
+    color: ghostwhite;
+    font-size: 18px;
+}
+.block {
+    color: ghostwhite;
+    font-size: 30px;
+
+}

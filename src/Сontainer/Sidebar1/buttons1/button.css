@@ -1,0 +1,9 @@
+.blockgray button {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background: #404040;
+    border: none;
+    font-size: 18px;
+    margin-left: 30px;
+}
