@@ -13,17 +13,12 @@ const style2 = {
 }
 export default () => (
 
-
 <div style={{float: 'right'}}>
     <div style={style}>
-        <div style={style2}>
-            <p>
-                <img src="https://yakapitalist.ru/wp-content/uploads/2018/10/Skolko-zarabatyvayut-voditeli-avtobusov.jpg"
-                     width="100"
-                     height="100"
-                     alt='Фото сотрудника'/>
-            </p>
-        </div>
+         <div className={'style2'}>
+                        <img src="https://yakapitalist.ru/wp-content/uploads/2018/10/Skolko-zarabatyvayut-voditeli-avtobusov.jpg"
+                                 alt='Фото сотрудника'/>
+                    </div>
         <div style={{textAlign: 'center',fontSize: '18px',color: 'black'}}>
             <p>Алексей Смирнов</p>
         </div>

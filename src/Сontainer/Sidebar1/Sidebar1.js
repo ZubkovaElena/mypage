@@ -11,25 +11,14 @@ const style1 = {
     fontSize: '9px'
 
 }
-const style2 = {
-    borderRadius: '50%',
-    textAlign:'center',
-    top: '100px'
-
-}
 class Side extends Component {
     render() {
         return (
                 <div style={style1}>
-                    <div style={style2}>
-                        <p>
-                            <img src="https://yakapitalist.ru/wp-content/uploads/2018/10/Skolko-zarabatyvayut-voditeli-avtobusov.jpg"
-                                 width="100"
-                                 height="100"
+                    <div className={'style2'}>
+                        <img src="https://yakapitalist.ru/wp-content/uploads/2018/10/Skolko-zarabatyvayut-voditeli-avtobusov.jpg"
                                  alt='Фото сотрудника'/>
-                        </p>
                     </div>
-
 
                         <div style={{textAlign: 'center',fontSize: '18px',color: 'white'}}>
                             <p>Алексей Тарабаев</p>

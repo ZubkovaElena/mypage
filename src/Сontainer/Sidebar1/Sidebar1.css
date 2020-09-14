@@ -8,3 +8,12 @@
     height: 828px;
     font-size: 9px;
 }
+.style2 {
+    display: flex;
+    justify-content: center;
+}
+.style2 img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
